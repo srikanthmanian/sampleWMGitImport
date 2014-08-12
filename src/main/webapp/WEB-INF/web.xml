@@ -69,7 +69,7 @@
 
         <init-param>
             <param-name> detectAllHandlerExceptionResolvers</param-name>
-            <param-value>false</param-value>
+            <param-value>true</param-value>
         </init-param>
 
         <load-on-startup>1</load-on-startup>
