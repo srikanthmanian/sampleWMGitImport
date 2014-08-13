@@ -4,6 +4,17 @@
             <wm-column class="app-content-column" columnwidth="12" paddingleft="15" paddingright="15" name="mainContent">
                 <wm-label caption="Pulled from Github" fontsize="20" name="Heading"></wm-label>
                 <wm-label caption="Pushed from WaveMaker" fontsize="20" name="Heading"></wm-label>
+                <wm-composite widget="date" name="composite1">
+                    <wm-label class="col-md-2" name="label3"></wm-label>
+                    <wm-date name="date1"></wm-date>
+                </wm-composite>
+                <wm-composite widget="currency" name="composite2">
+                    <wm-label class="col-md-2" name="label4"></wm-label>
+                    <wm-currency name="currency1"></wm-currency>
+                </wm-composite>
+                <wm-label name="label5"></wm-label>
+                <wm-anchor name="anchor1"></wm-anchor>
+                <wm-picture name="picture1"></wm-picture>
             </wm-column>
         </wm-row>
     </wm-content>
